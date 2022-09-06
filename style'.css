@@ -1,0 +1,21 @@
+*{
+    background-color: #D0ABA0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  #BMI_form{
+    text-align: center;
+    margin-top: 125px;
+    display: grid;
+    justify-content: center;
+  }
+  
+  #BMI_form > input{
+    padding: 20px;
+    margin: 5px;
+    width: 50vh
+  }
+  
+  #calculated{
+    text-align:center
+  }

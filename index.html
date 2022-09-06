@@ -1,0 +1,14 @@
+<script src="script.js" charset="utf-8"></script>
+
+<div id="BMI_form">
+<h1>BMI Calculator</h1>
+<input id="name" type="text" name="" value="" placeholder="name">
+<input id="weight" type="text" name="" value="" placeholder="weight">
+<input id="height" type="text" name="" value="" placeholder="height">
+<button type="button" name="Calculate BMI" onclick=
+"calculateBMI(document.getElementById('weight').value, document.getElementById('height').value);
+addPerson(document.getElementById('name').value, document.getElementById('weight').value, document.getElementById('height').value, document.getElementById('weight').value/(document.getElementById('height').value*document.getElementById('height').value));
+clearInput();">Calculate BMI</button>
+</div>
+
+<h1 id="calculated"></h1>
